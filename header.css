@@ -279,15 +279,6 @@ body {
     border-radius: 5px; 
 }
 
-.adv-img-1 a:hover {
-    background-size: 140%;
-    transition: ease-in-out 0.5;
-}
-.adv-img-2 a:hover {
-    background-size: 140%;
-    transition: ease-in-out 0.5;
-}
-
 .descriptions {
     width: 75%;
     background-color: #4f5c4f;
@@ -454,18 +445,7 @@ body {
     height:170px;  
     border-radius: 2px;
 }
-.adv-img-3 a:hover {
-    background-size: 140%;
-    transition: ease-in-out 0.5;
-}
-.adv-img-4 a:hover {
-    background-size: 140%;
-    transition: ease-in-out 0.5;
-}
-.adv-img-5 a:hover {
-    background-size: 140%;
-    transition: ease-in-out 0.5;
-}
+
 .add {
     margin: 5% 0;
     left: 75%;
@@ -540,7 +520,41 @@ body {
     font-size: 15px;
     color: #000;
 }
-
+/* section-five */
+.section-five {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    background-color: #e2e0dc;
+}
+.img-for-h23 {
+    background: url(img/lern.png)center no-repeat;
+    
+}
+.adv-img-6 a {
+    background: url(img/bgbg1.jpg) center no-repeat;
+    background-size: 100%; 
+    width: 90%;
+    height:170px;  
+    border-radius: 2px;
+}
+.adv-img-7 a {
+    background: url(img/gu2.jpg) center no-repeat;
+    background-size: 100%; 
+    width: 90%;
+    height:170px;  
+    border-radius: 2px;
+}
+.adv-img-8 a {
+    background: url(img/gu3.jpg) center no-repeat;
+    background-size: 100%; 
+    width: 90%;
+    height:170px;  
+    border-radius: 2px;
+}
+[class*="size-img"]:hover {
+    background-size: 140%;
+    transition: ease-in-out 0.5;
+}
 
 @media (max-width: 767px) {
     .menu {
