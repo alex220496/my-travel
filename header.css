@@ -265,14 +265,14 @@ body {
 }
 
 .adv-img-1 a {
-    background: url(img/adv1.jpg) center no-repeat;
+    background: url(img/first.jpg) center no-repeat;
     background-size: 100%; 
     width: 90%;
     height:276px;  
     border-radius: 5px;
 }
 .adv-img-2 a {
-    background: url(img/adv2.jpg) center no-repeat;
+    background: url(img/second.jpg) center no-repeat;
     background-size: 100%; 
     width: 90%;
     height:276px; 
@@ -553,7 +553,7 @@ body {
 }
 [class*="size-img"]:hover {
     background-size: 140%;
-    transition: ease-in-out 0.5;
+    transition: all .3s ease-in-out;
 }
 
 @media (max-width: 767px) {
