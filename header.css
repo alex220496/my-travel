@@ -20,6 +20,10 @@ body {
     margin-left: -15px;
     margin-right: -15px;
 }
+[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* -----------------------HEADER-------------------- */
 
 .header {
@@ -123,6 +127,7 @@ body {
     width: 100%;
 }
 .contact {
+    width: 100%;
     background-color: #363f36;
     height: 100px;
     display: flex;
@@ -268,14 +273,14 @@ body {
     background: url(img/first.jpg) center no-repeat;
     background-size: 100%; 
     width: 90%;
-    height:276px;  
+    height:240px;  
     border-radius: 5px;
 }
 .adv-img-2 a {
     background: url(img/second.jpg) center no-repeat;
     background-size: 100%; 
     width: 90%;
-    height:276px; 
+    height:240px; 
     border-radius: 5px; 
 }
 
@@ -306,15 +311,16 @@ body {
 }
 .descriptions h3 {
     color: #fff;
-    margin: 30px 15px;
+    margin: 15px;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
 }
 .subb-desc {
     color: rgb(228, 226, 226);
     font-size: 15px;
     font-weight: 400;
-    margin: 15px;
+    line-height: 21px;
+    margin: 5px 15px;
 }
 .time {
     display: flex;
@@ -335,7 +341,7 @@ body {
     height: 20px;
     position: absolute;
     border-radius: 50%;
-    left: 15px;
+    left: 10px;
     top: 2px;
 }
 .subb-time {
@@ -351,7 +357,7 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
-    left: -8px;
+    left: -15px;
     top: -2px;
 }
 .discover-more {
@@ -632,6 +638,9 @@ body {
     color: #fff;
     font-size: 18px;
 }
+.color {
+    color: #ac8a62;
+}
 @media (max-width: 767px) {
     .menu {
         display: none;
@@ -678,6 +687,7 @@ body {
         padding: 0 35px;
     }
     .contact {
+        
         padding-left: 0;
         flex-direction: column;
         align-items: center;
