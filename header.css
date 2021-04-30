@@ -489,7 +489,7 @@ body {
     box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.4),
     0 2px 0 rgba(255, 255, 255, 0.4),
     0 2px 0 rgba(0, 0, 0, 0.1);
-    transition:  ease-in-out 0.35;
+    transition:  ease-in-out 0.35s;
 }
 .df {
     display: flex;
@@ -598,17 +598,60 @@ body {
     cursor: pointer;
 }
 .sec-six button:hover {
-    background-color: #e0b37f;
+    background-color: #fac78d;
 }
 
 @media (max-width: 767px) {
     .menu {
         display: none;
     }
+    .logo {
+        padding: 25px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-adv {
+        width: 60%;
+        font-size: 16px;
+    }
+    .ceo-text p {
+        font-size: 18px;
+        line-height: 25px;
+
+    }
     .hot-air {
         margin-top: 320px;
     }
+    .message {
+        justify-content: center;
+        width: 90%;
+        height: 300px;
+    }
+    .text-message {
+        width: 90%;
+        height: 95%;
+        padding: 20px 10px;
+    }
 
+    .box {
+        margin-left: 25px;
+        
+    }
+    .my-h3 {
+        margin-left: 25px;
+    }
+    .hot-air h2 {
+        font-size: 30px;
+        line-height: 38px;
+        padding: 0 35px;
+    }
+    .contact {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .col-xs-2 {
         flex: 0 0 16.6666%;
         max-width: 16.666%;
